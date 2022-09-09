@@ -1,0 +1,295 @@
+html{
+    font-size: 62.5%;
+}
+
+.grid{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Sarabun';
+}
+
+header{
+     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999999;
+    background-color: rgb(53,51,83);
+    border-bottom: .1px solid #ccc;
+}
+
+.nav-menu-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu-item{
+    margin-right: 5rem;
+}
+
+.nav-menu-item-link{
+    font-size: 1.6rem;
+    color: #ffffff;
+    height: 8.4rem;
+    line-height: 8.4rem;
+}
+
+.nav-menu-item-link:hover,
+.section-info-social-link:hover{
+    color: #FFD15C;
+    text-decoration: none;
+}
+
+/* section */
+section{
+    background-color: rgb(53,51,83);
+}
+
+.section-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.section-img img{
+    width: 40%;
+}
+
+.section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-info-name,
+.section-info-job,
+.section-info-social-link{
+    color: #fff;
+}
+
+.section-info-name{
+    font-size: 3.6rem;
+    margin-top: 3rem;
+}
+
+.section-info-job{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.section-info-social-link{
+    font-size: 2.4rem;
+}
+
+.btn-contact{
+    width: 10%;
+    height: 5rem;
+    margin: 3rem 0 5rem;
+    background-color: rgb(255,76,96);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.6rem !important;
+}
+
+.btn-scroll-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-scroll-down span{
+    font-size: 2.8rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.mouse-scroll-down{
+    text-align: center;
+    margin: 1rem 0 5rem;
+}
+
+.mouse-scroll-down img{
+    width: 10%;
+}
+
+
+/* main-body */
+.main-body{
+    background-color: rgb(249,249,255);
+}
+
+.main-body-about,
+.main-body-education,
+.main-body-projects,
+.main-body-contact{
+    padding-top: 16rem;
+}
+
+.main-body-heading{
+    font-size: 3.6rem;
+    margin-bottom: 6rem;
+}
+
+.main-body-about-left{
+    padding-top: 8rem;
+    background-color: #ffffff;
+    border-radius: 2.5rem;
+}
+
+.main-body-about-content p{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.btn-app{
+    width: 30%;
+    height: 4rem;
+    font-size: 2rem !important;
+    margin-right: 2rem;
+}
+
+.main-body-about-img img{
+    width: 100%;
+}
+
+.main-body-education{
+    padding-top: 10rem;
+}
+
+.main-body-education-content{
+    background-color: #ffffff;
+    border-radius: 2.5rem;
+}
+
+.main-body-education-content-img{
+    padding-top: 20rem;
+}
+
+.main-body-education-content-img img{
+    width: 100%;
+}
+
+.timeline-container-education{
+    padding: 5rem;
+}
+
+.main-body-education-content::after{
+    position: absolute;
+    content: " ";
+    top: 8%;
+    left: 5%;
+    width: 1px;
+    height: 533px;
+    background-color: red;
+}
+s
+.content .time {
+    color: #8B88B1;
+    font-size: 1.4rem;
+}
+
+.content .title {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 1.6rem;
+}
+
+.main-body-projects-link-box{
+    margin: 1.5rem 0;
+}
+
+.main-body-projects-link{
+    margin: 1.5rem 0;
+}
+
+.main-body-projects-link-img img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.main-body-projects-link:hover .main-body-project-link-hover{
+    display: block;
+}
+
+.main-body-project-link-hover{
+    display: none; 
+    position: absolute;
+    background-color: #7a7be7;
+    width: 92.6%;
+    height: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 1.5rem !important;
+}
+
+.main-body-project-link-name{
+    font-size: 2.8rem;
+    line-height: 1.6;
+}
+
+.main-body-project-link-title{
+    font-size: 1.6rem;
+}
+
+.main-body-contact-dirrect-me h3{
+    font-size: 2.4rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.main-body-contact-dirrect-me span{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.main-body-contact-dirrect-me span a{
+    color: #000;
+}
+
+.main-body-contact-dirrect-me span a:hover{
+    text-decoration: none;
+}
+
+.form-control{
+    font-size: 1.6rem !important;
+    padding: 1rem 2rem !important;
+    border: none !important;
+    border-radius: 1.5rem !important;
+}
+
+.form-submit{
+    width: 20%;
+    height: 5rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgb(255,76,96);
+    color: #ffffff;
+    outline: none;
+    font-size: 1.6rem;
+}
+/* footer */
+footer{
+    background-color: rgb(53,51,83);
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 2.4rem;
+    color: #ccc;
+    height: 7.4rem;
+    line-height: 7.4rem;
+}
